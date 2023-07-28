@@ -63,6 +63,9 @@ if __name__ == '__main__':
 
 ### 3. 运行
 
+pip install librosa==0.8.1
+pip install --upgrade numpy
+
 ```
 python inference.py --load "./checkpoints/again/c4s/again-c4s_100000.pth" --source "./data/wav48/p225/p225_001.wav" --target "./data/wav48/p226/p226_001.wav" --output "./output"
 ```
